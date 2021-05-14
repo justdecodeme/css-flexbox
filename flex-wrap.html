@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>flex-wrap</title>
+  <style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .parent {
+    background: rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* flex-wrap: nowrap; */
+  }
+  .child {
+    width: 25%;
+    height: 100px;
+  }
+  .child:nth-child(1) { background: #2a9d8f; }
+  .child:nth-child(2) { background: #e9c46a; }
+  .child:nth-child(3) { background: #e76f51; }
+  .child:nth-child(4) { background: #457b9d; }
+  .child:nth-child(5) { background: #586ae6; }
+  .child:nth-child(6) { background: #b5179e; }
+  </style>
+</head>
+<body>
+  <div class="parent">
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+  </div>
+</body>
+</html>
