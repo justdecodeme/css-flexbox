@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>project-image-gallery</title>
+  <style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .parent {
+    background: rgb(80, 80, 80);
+    display: flex;
+    flex-wrap: wrap;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .child.normal {
+    flex: 1 1 150px;
+  }
+  .child.big {
+    flex: 1 1 250px;
+  }
+  </style>
+</head>
+<body>
+  <div class="parent">
+    <div class="child normal"><img src="./img/img-1.jpg"></div>
+    <div class="child big"><img src="./img/img-2.jpg"></div>
+    <div class="child normal"><img src="./img/img-3.jpg"></div>
+    <div class="child big"><img src="./img/img-4.jpg"></div>
+    <div class="child normal"><img src="./img/img-5.jpg"></div>
+    <div class="child big"><img src="./img/img-6.jpg"></div>
+    <div class="child normal"><img src="./img/img-7.jpg"></div>
+    <div class="child big"><img src="./img/img-8.jpg"></div>
+    <div class="child normal"><img src="./img/img-9.jpg"></div>
+    <div class="child big"><img src="./img/img-10.jpg"></div>
+    <div class="child normal"><img src="./img/img-11.jpg"></div>
+    <div class="child big"><img src="./img/img-12.jpg"></div>
+    <div class="child normal"><img src="./img/img-13.jpg"></div>
+    <div class="child big"><img src="./img/img-14.jpg"></div>
+    <div class="child normal"><img src="./img/img-15.jpg"></div>
+  </div>
+</body>
+</html>
