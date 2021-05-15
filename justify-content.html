@@ -10,6 +10,7 @@
   .parent {
     background: rgb(80, 80, 80);
     display: flex;
+    /* TODO: Which property is default? > ___ */
     justify-content: center;
     /* justify-content: flex-end; */
     /* justify-content: flex-start; */
@@ -17,27 +18,22 @@
     /* justify-content: space-around; */
     /* justify-content: space-evenly; */
   }
-  .child {
-    width: 20%;
-  }
   .child:nth-child(1) { background: #2a9d8f; }
   .child:nth-child(2) { background: #e9c46a; }
+  /* .child:nth-child(2) { background: #e9c46a; margin-left: auto;} */
   .child:nth-child(3) { background: #e76f51; }
   </style>
 </head>
 <body>
   <div class="parent">
     <div class="child">
-      <h1>Box 1</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+      <h1>Home</h1>
     </div>
     <div class="child">
-      <h1>Box 2</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+      <h1>Search</h1>
     </div>
     <div class="child">
-      <h1>Box 3</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h1>Logout</h1>
     </div>
   </div>
 </body>

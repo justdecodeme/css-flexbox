@@ -10,8 +10,9 @@
   .parent {
     background: rgb(80, 80, 80);
     display: flex;
-    justify-content: center;
+    /* TODO: Which property is default? > ___ */
     flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
     /* flex-wrap: nowrap; */
   }
   .child {
@@ -20,7 +21,7 @@
   .child:nth-child(1) { background: #2a9d8f; }
   .child:nth-child(2) { background: #e9c46a; }
   .child:nth-child(3) { background: #e76f51; }
-  .child:nth-child(4) { background: #457b9d; }
+  .child:nth-child(4) { background: #42ab4e; }
   .child:nth-child(5) { background: #586ae6; }
   .child:nth-child(6) { background: #b5179e; }
   </style>
@@ -28,28 +29,22 @@
 <body>
   <div class="parent">
     <div class="child">
-      <h1>Box 1</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+      <h1>Home</h1>
     </div>
     <div class="child">
-      <h1>Box 2</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+      <h1>Search</h1>
     </div>
     <div class="child">
-      <h1>Box 3</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h1>Logout</h1>
     </div>
     <div class="child">
-      <h1>Box 4</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+      <h1>Link1</h1>
     </div>
     <div class="child">
-      <h1>Box 5</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+      <h1>Link2</h1>
     </div>
     <div class="child">
-      <h1>Box 6</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h1>Link3</h1>
     </div>
   </div>
 </body>

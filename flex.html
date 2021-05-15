@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>order</title>
+  <title>flex</title>
   <style>
   * {
     margin: 0;
@@ -11,17 +11,20 @@
     background: rgb(80, 80, 80);
     display: flex;
   }
+  .child {
+    /* flex: 1; */
+  }
   .child:nth-child(1) { 
     background: #2a9d8f;
-    order: 3; 
+    /* flex: 1;  */
   }
   .child:nth-child(2) { 
     background: #e9c46a;
-    order: 1; 
+    flex: 1;
   }
   .child:nth-child(3) { 
     background: #e76f51;
-    order: 2; 
+    /* flex: 1;  */
   }
   </style>
 </head>
