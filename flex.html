@@ -12,19 +12,20 @@
     display: flex;
   }
   .child {
-    /* flex: 1; */
+    /* flex: flex-grow flex-shrink flex-basis; */
+    /* flex: 1 1 0; */
   }
   .child:nth-child(1) { 
     background: #2a9d8f;
-    /* flex: 1;  */
+    flex-grow: 1;
+    flex-shrink: 4;
+    flex-basis: 400px;
   }
   .child:nth-child(2) { 
     background: #e9c46a;
-    flex: 1;
-  }
-  .child:nth-child(3) { 
-    background: #e76f51;
-    /* flex: 1;  */
+    flex-grow: 4;
+    flex-shrink: 1;
+    flex-basis: 400px;
   }
   </style>
 </head>
@@ -32,9 +33,6 @@
   <div class="parent">
     <div class="child">
       <h1>Home</h1>
-    </div>
-    <div class="child">
-      <h1>Search</h1>
     </div>
     <div class="child">
       <h1>Logout</h1>

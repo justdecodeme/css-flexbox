@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>order</title>
+  <title>align-self</title>
   <style>
   * {
     margin: 0;
@@ -9,33 +9,35 @@
   }
   .parent {
     background: rgb(80, 80, 80);
+    height: 200px;
     display: flex;
+    align-items: center;
   }
   .child:nth-child(1) { 
     background: #2a9d8f;
-    /* order: 3;  */
   }
   .child:nth-child(2) { 
     background: #e9c46a;
-    /* order: 1;  */
-    order: -1;
+    align-self: flex-start;
+    /* align-self: flex-end;
+    align-self: center;
+    align-self: stretch; */
   }
   .child:nth-child(3) { 
     background: #e76f51;
-    /* order: 2;  */
   }
   </style>
 </head>
 <body>
   <div class="parent">
     <div class="child">
-      <h1>1 Home</h1>
+      <h1>Home</h1>
     </div>
     <div class="child">
-      <h1>2 Search</h1>
+      <h1>Search</h1>
     </div>
     <div class="child">
-      <h1>3 Logout</h1>
+      <h1>Logout</h1>
     </div>
   </div>
 </body>
